@@ -1,0 +1,46 @@
+{
+    "models": [
+        {
+            "name": "Stable Diffusion v1.5",
+            "url": "https://huggingface.co/runwayml/stable-diffusion-v1-5",
+            "remote-files": {
+                "checkpoint": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors"
+            },
+            "local-files": {
+                "checkpoint": "v1-5-pruned-emaonly.safetensors"
+            },
+            "base": "",
+            "tags": [
+                "SD15"
+            ]
+        },
+        {
+            "name": "SD-XL 1.0-base",
+            "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+            "remote-files": {
+                "checkpoint": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
+            },
+            "local-files": {
+                "checkpoint": "sd_xl_base_1.0.safetensors"
+            },
+            "base": "",
+            "tags": [
+                "SDXL"
+            ]
+        },
+        {
+            "name": "Pony Diffusion V6 XL",
+            "url": "https://civitai.com/models/257749/pony-diffusion-v6-xl",
+            "remote-files": {
+                "checkpoint": "https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+            },
+            "local-files": {
+                "checkpoint": "Pony-Diffusion-V6-XL.safetensors"
+            },
+            "base": "SDXL",
+            "tags": [
+                "SDXL"
+            ]
+        }        
+    ]
+}
