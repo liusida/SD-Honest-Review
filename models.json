@@ -9,6 +9,12 @@
             "local-files": {
                 "checkpoint": "v1-5-pruned-emaonly.safetensors"
             },
+            "resolution": [
+                {
+                    "width": 512,
+                    "height": 512
+                }
+            ],
             "base": "",
             "tags": [
                 "SD15"
@@ -23,6 +29,12 @@
             "local-files": {
                 "checkpoint": "sd_xl_base_1.0.safetensors"
             },
+            "resolution": [
+                {
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
             "base": "",
             "tags": [
                 "SDXL"
@@ -37,6 +49,12 @@
             "local-files": {
                 "checkpoint": "Pony-Diffusion-V6-XL.safetensors"
             },
+            "resolution": [
+                {
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
             "base": "SDXL",
             "tags": [
                 "SDXL"
